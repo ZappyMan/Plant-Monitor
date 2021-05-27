@@ -1,0 +1,5 @@
+CREATE TABLE Sensor (
+    uv INT,
+    moisture INT,
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
